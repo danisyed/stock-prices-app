@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# PyCharm files
+.idea/
+
+# Instance Folder - used for configuration parameters
+instance/*_full.py
+instance/*.db
+
+# Coverage output
+.coverage
+
+# Virtual Environment
+/venv/
+
+# pytest files
+.pytest_cache/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
