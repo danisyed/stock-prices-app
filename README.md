@@ -7,11 +7,12 @@
 **Web:** [www.SyedAdnan.com](https://syedadnan.com)
 
 <p align="center">
-<img src="https://library.kissclipart.com/20181208/pwe/kissclipart-python-programming-a-beginners-guide-to-learn-py-c106bf0c27f1f5a5.jpg" width="150">   
+<img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" width="150px">   
 
-<img src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png" width="150">   
+<img src="https://www.docker.com/sites/default/files/social/docker_facebook_share.png" width="150px">   
 
-<img src="https://blog.iron.io/wp-content/uploads/2019/04/Google-Cloud-Run.jpg" width="150">
+<img src="https://blog.iron.io/wp-content/uploads/2019/04/Google-Cloud-Run.jpg" width="150px">
+
 </p>
 
 <p align="center">
