@@ -16,12 +16,12 @@
 </p>
 
 <p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://travis-ci.com/python/cpython" rel="nofollow"><img alt="CPython build status on Travis CI" src="https://camo.githubusercontent.com/e2f0729c2a61f123574398512166adfdf5300f4b242a416f27e8b6ae2faa7fde/68747470733a2f2f7472617669732d63692e636f6d2f707974686f6e2f63707974686f6e2e7376673f6272616e63683d6d61696e" data-canonical-src="https://travis-ci.com/python/cpython.svg?branch=main" style="max-width: 100%;"></a>
 </p>
 
 ## Intro
 
-This demo application is written in Python3, takes an array of stock prices and returns the best profit you could have made from 1 purchase and 1 sale of 1 Financial stock from yesterday. There are few other requirements as well that are included in the logic. Main requirements are you must buy before you sell. Also you may not buy and sell in the same time step (at least 1 minute must pass).
+This stock price application is written in Python3, takes an array of stock prices and returns the best profit you could have made from 1 purchase and 1 sale of 1 Financial stock from yesterday. There are few other requirements as well that are included in the logic. Main requirements are you must buy before you sell. Also you may not buy and sell in the same time step (at least 1 minute must pass).
 
 
 ## Tech Stack
@@ -34,7 +34,7 @@ Following tech stack has been used to develop this application:
 - **GitHub Workflow** 
 - **CloudBuild for CI/CD Pipeline** 
 - **Google Artifact Registory for Container Builds** 
-- **Cloud Run for Serverless Architecture** 
+- **Cloud Run to deploy over Serverless Architecture** 
 
 
 ## Steps to install / Run the application
@@ -42,7 +42,7 @@ Following tech stack has been used to develop this application:
 - *Clone the code from GitHub*
 - *Install the dependencies using pip install -r requirements.txt*
 - *Build using Docker build command*
-- *Docker file will use the python3 image*
+- *Docker file is using the python3 image*
 - *Configure the service accounts & Permissions over Google Cloud*
 - *Configure CloudBuild to listen to any commit in the GitHub repo*
 - *UnitTests will be executed before pushing the container build*
@@ -63,7 +63,7 @@ You can run the following unit tests in this application:
 - *test_zero_profit - Will test where all stock prices are same*
 - *test_indiv_function - Will test the individual function for int validation*
 
-<img src="https://ibb.co/GkbVj19" width="650">
+<img src="https://i.ibb.co/FJjBtfX/unit-test-screen.png" width="650">
 
 *Steps to run UnitTests:* Follow the below steps to execute the unit tests:
 
