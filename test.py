@@ -16,6 +16,12 @@ def test_empty_list():
    profit = get_max_profit(prices)
    assert profit == 0
 
+# UnitTest: Function should not fail for single item list
+def test_single_item_list():
+   prices = [1]
+   profit = get_max_profit(prices)
+   assert profit == 0
+
 # UnitTest: Function should accept all integer prices
 def test_int_list():
    prices = [1, 2, 3, 'something']

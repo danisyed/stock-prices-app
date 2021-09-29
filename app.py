@@ -18,7 +18,7 @@ def get_max_profit(prices):
     """
 
     # Validate if prices are passed
-    if len(prices)==0:
+    if len(prices)==0 or len(prices) < 2:
         return 0
 
     # Validate if all prices are integer
